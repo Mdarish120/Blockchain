@@ -1,0 +1,45 @@
+
+
+.container{
+
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.container input {
+
+    margin-left: 2rem;
+    outline: none;
+    padding: 0.6rem;
+}
+
+
+.container button{
+
+    margin-left: 2rem;
+    outline: none;
+    padding: 0.6rem;
+}
+
+
+@media (max-width:900px) {
+    
+    .container{
+        width: 100%;
+    }
+
+    .container input {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .container button {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+}

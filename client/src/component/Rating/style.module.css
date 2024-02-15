@@ -1,0 +1,31 @@
+
+
+
+.container{
+    overflow-x: auto;
+    margin-top: 10%;
+    padding: 5rem;
+}
+
+.container table{
+
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #ddd;
+}
+
+.container th ,td{
+      
+    border: 2px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.logout{
+
+    outline: none;
+    margin-top: 5%;
+    padding: 0.6rem;
+    margin-left: 10rem;
+}
+
